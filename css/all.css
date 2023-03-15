@@ -1,0 +1,97 @@
+body {
+  margin: initial;
+}
+
+.fonts {
+  font-family: 'Lato', sans-serif;
+}
+
+.fonts-coco {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+main {
+  background-color: #ececec;
+}
+
+.top-navigation {
+  display: none;
+}
+
+.hamburger {
+  margin-left: 7vw;
+  padding-top: 3.5vh;
+  position: fixed;
+  z-index: 1;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+/* Hamburger clicked */
+
+.not-cliked {
+  display: none;
+}
+
+.clicked {
+  position: absolute;
+  top: 8px;
+  left: 1vw;
+  display: flex;
+  flex-direction: column;
+  width: 95vw;
+  height: 100vh;
+  mix-blend-mode: multiply;
+  border: 2px solid #67798e;
+  backdrop-filter: blur(6px);
+  background: #272a31;
+  z-index: 1;
+  margin: initial;
+}
+
+.clicked-p {
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 80%;
+  margin-right: 5%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: large;
+}
+
+.clicked-p:hover {
+  cursor: pointer;
+}
+
+.clicked-ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-bottom: 20vh;
+  gap: 20px;
+  padding-left: 28px;
+  padding-right: initial;
+  margin-top: 30px;
+}
+
+.clicked-ul a {
+  text-decoration: none;
+  height: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+/* End of Hamburger clicked */

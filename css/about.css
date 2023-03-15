@@ -125,7 +125,7 @@
   height: 200px;
   display: flex;
   color: #fff;
-  background: url(images/Event-1.jpeg);
+  background: url(../images/medstore.jpg);
   background-repeat: no-repeat;
   background-size: 100% 200px;
 }
@@ -137,7 +137,7 @@
   align-items: center;
   justify-content: center;
   color: #fff;
-  background: url(images/Event-2.jpeg);
+  background: url(../images/ksm.jpg);
   background-repeat: no-repeat;
   background-size: 100% 200px;
   margin-bottom: 40px;
@@ -188,6 +188,7 @@
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 /* About last section */
@@ -218,4 +219,35 @@
   width: 48%;
   color: #272a31;
   font-size: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* About section 4 */
+
+  .partners-wrapper {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    gap: 4%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    width: 100%;
+    background-color: #272a31;
+    margin: initial;
+    color: #fff;
+  }
+
+  .dev-logo {
+    width: 48%;
+    max-height: 30px;
+  }
+
+  .footer-c {
+    width: 48%;
+    color: #fff;
+    font-size: 12px;
+  }
 }

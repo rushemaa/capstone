@@ -57,7 +57,7 @@
 
 .main-program {
   /* background-color: #272a31; */
-  background: url(images/bgr.png);
+  background: url(../images/bgr.png);
   margin-top: -20px;
   text-align: center;
   display: flex;
@@ -104,6 +104,14 @@
 .p-img {
   max-height: 50px;
   margin-left: 20px;
+}
+
+.services {
+  font-size: 50px;
+  color: #d3d3d3;
+  margin-left: 20px;
+  z-index: 0;
+  margin-top: 10px;
 }
 
 .p-header h4 {
@@ -162,8 +170,7 @@
 
 .s-img {
   width: 30%;
-  /* background-color: #272a31; */
-  background: url(images/im-bgr.png);
+  background: url(../images/im-bgr.png);
   background-position-y: top;
   background-position-x: left;
   background-repeat: no-repeat;
@@ -174,7 +181,8 @@
 }
 
 .s-img img {
-  max-height: 50px;
+  max-height: 100px;
+  margin-top: 10px;
 }
 
 .s-details {
@@ -233,4 +241,70 @@
 
 .footer {
   display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  /* About section 4 */
+
+  .partners-wrapper {
+    background-color: #272a31;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .partner-title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .partners-wrapper h2 {
+    margin-top: 5px;
+    color: #d3d3d3;
+    margin-bottom: 5px;
+  }
+
+  .partner-line {
+    width: 40px;
+    border: 0.5px solid #ec5242;
+  }
+
+  .partners {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  /* About last section */
+
+  .partner {
+    max-width: 150px;
+    max-height: 70px;
+    margin: initial;
+  }
+
+  .footer {
+    display: flex;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    gap: 4%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-top: 20px;
+  }
+
+  .dev-logo {
+    width: 48%;
+    max-height: 30px;
+  }
+
+  .footer-c {
+    width: 48%;
+    color: #272a31;
+    font-size: 12px;
+  }
 }

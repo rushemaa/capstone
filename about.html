@@ -14,12 +14,12 @@
       rel="stylesheet"
     />
     <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
-    <link rel="stylesheet" href="all.css" />
-    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/about.css" />
     <link
       rel="stylesheet"
       media="screen and (min-width: 768px)"
-      href="widescreen.css"
+      href="css/widescreen.css"
     />
     <script src="scripts.js" defer></script>
   </head>
@@ -32,6 +32,27 @@
           <div></div>
           <div></div>
         </div>
+        <!-- mobile nav -->
+        <nav id="clicked" class="not-cliked fonts">
+          <p class="clicked-p">X</p>
+          <ul class="clicked-ul">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="active">About</a>
+            </li>
+            <li>
+              <a href="#">Projects</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
         <!-- computer nav -->
         <nav class="top-navigation fonts">
           <div class="accounts">
@@ -59,11 +80,9 @@
             </div>
             <ul class="nav-lists">
               <li><a class="nav-list active" href="about.html">About</a></li>
-              <li><a class="nav-list" href="#">Program</a></li>
-              <li><a class="nav-list" href="#">Join</a></li>
-              <li><a class="nav-list" href="#">Sponsor</a></li>
-              <li><a class="nav-list" href="#">News</a></li>
-              <li><a class="nav-list" href="#">CC Campain</a></li>
+              <li><a class="nav-list" href="#">Projects</a></li>
+              <li><a class="nav-list" href="#">Services</a></li>
+              <li><a class="nav-list" href="#">Contact</a></li>
             </ul>
           </div>
         </nav>
@@ -71,62 +90,60 @@
     </main>
     <!-- About section -->
     <section class="about-page fonts">
-      <p class="a-hello">"Hello! Sharing the world"</p>
+      <p class="a-hello">"Impossible is nothing!"</p>
       <h1 class="about-title fonts-coco">
-        Creative commons global summit 2015
+        RMsoft.ltd - Reliable Made Software
       </h1>
       <div class="a-content">
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged.
+          RMsoft.ltd company (Reliable Made Software) founded in 2012 by a team
+          of professionals who are passionate about delivering the best web
+          based software, android applications, Cabling solutions, CCTV and
+          Access control solutions. Since 2012, we have developed systems like
+          MEDSTORE, SUPERSTORE, Rwanda Neuro-Surgical Center content management
+          system, TOEFL correction software and many more that deliver ultimate
+          digital experiences for financial services and insurance companies,
+          NGOs and government agencies.
         </p>
       </div>
-      <p class="a-copyright">
-        Please contact us per Eamil for any futher questions about CC Global
-        Summit 2015!
-      </p>
+      <p class="a-copyright">Get in touch with us!</p>
       <a class="email" href="mailto: rushemaa@gmail.com">rushemaa@gmail.com</a>
     </section>
     <!-- still about  -->
     <section class="a-section-1 fonts">
       <div class="a-section-1-title">
-        <h2>Creative Commons Global Summit 2015 Logo</h2>
+        <h2>The RMsoft company Logo</h2>
         <hr class="a-line" />
       </div>
       <p class="logo-desc">
-        The logo of CC Global Summit 2015 was decibed through the logo
-        competition from 8.June to 7.July
+        The logo of was designed by one of our best UI designer in 2015
       </p>
 
       <div class="a-section-1-logo">
-        <img class="a-logo" src="images/logo.png" />
+        <img class="a-logo" src="images/rm.jpg" />
       </div>
     </section>
     <!-- still about  -->
     <section class="a-section-1 sec-2 fonts">
       <div class="a-section-1-title">
-        <h2>See the past CC Global Summits</h2>
+        <h2>Best selling Projects</h2>
         <hr class="a-line" />
       </div>
       <p class="logo-desc">
-        Take a look at the last two CC Global Summits which took place in Buenos
-        Aires and Warsaw
+        Below are our best selling projects in the last 5 years
       </p>
-
-      <div class="a-section-1-logo events">
-        <div class="event-rapper">
-          <h2 class="h-events">2013</h2>
-          <p>CC Global Summit 2013 in Buenos Aires</p>
+      <div class="past-events">
+        <div class="a-section-1-logo events">
+          <div class="event-rapper">
+            <h2 class="h-events">2018</h2>
+            <p>MEDSTORE</p>
+          </div>
         </div>
-      </div>
-      <div class="a-section-1-logo events-1">
-        <div class="event-rapper">
-          <h2 class="h-events">2011</h2>
-          <p>CC Global Summit 2011 in Warsaw</p>
+        <div class="a-section-1-logo events-1">
+          <div class="event-rapper">
+            <h2 class="h-events">2020</h2>
+            <p>KIGALISM.COM</p>
+          </div>
         </div>
       </div>
     </section>
@@ -138,33 +155,14 @@
       </div>
 
       <div class="partners">
-        <img
-          class="partner"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-plain-wordmark.svg"
-        />
-        <img
-          class="partner"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-plain-wordmark.svg"
-        />
-        <img
-          class="partner"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-plain-wordmark.svg"
-        />
-
-        <img
-          class="partner"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-plain-wordmark.svg"
-        />
-
-        <img
-          class="partner"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-plain-wordmark.svg"
-        />
+        <img class="partner" src="images/rdb.jpeg" />
+        <img class="partner" src="images/oda.png" />
+        <img class="partner" src="images/rwa.png" />
       </div>
     </section>
     <!-- About last section -->
-    <section class="footer">
-      <img class="dev-logo" src="images/dev-logo.png" />
+    <section class="footer fonts">
+      <h3>&#169; RMsoft</h3>
       <p class="footer-c">
         2023 Rushema Anicet Kigali<br />
         Some Rights Reserved

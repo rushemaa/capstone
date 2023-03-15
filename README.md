@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Portfolio</b></h3>
+  <h3><b>RMsoft website</b></h3>
 
 </div>
 
@@ -36,7 +36,6 @@
 
 The entire project was built with only HTML5, CSS3 and JavaScript.
 
-
 # 📖 [Online link porfolio] <a name="about-project"></a>
 
 In this project:
@@ -66,13 +65,13 @@ In this project:
 <!-- Features -->
 
 ### Key Features <a name="key-features">
+
 - **[key_feature_1]** My Porfolio, built with CSS, Html and JavaScript.
 - **[key_feature_2]** Portfolio: Mobile Version.
 - **[key_feature_3]** Portfolio: add a contact form and finish the mobile version.
 - **[key_feature_4]** Portfolio: desktop version.
 - **[key_feature_5]** Portfolio - mobile menu.
-</a>
-
+  </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,9 +79,7 @@ In this project:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://rushemaa.github.io/mobile-first/)
-- [Loom walkthrough](https://www.loom.com/share/fc8e206667164a6290391676431a67e7)
-
+- [Live Demo Link](https://github.com/rushemaa/capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,12 +98,6 @@ To get a local copy up and running,clone this repository to your desired folder:
 - GitHub: [@rushemaa](https://github.com/rushemaa)
 - Twitter: [@rushemaa](https://twitter.com/rushemaa)
 - LinkedIn: [Rushema Anicet](https://www.linkedin.com/in/rushema-anicet-77494088/)
-
-👤 **Amarachi Dimkpa**
-
-- GitHub: [@amazinggacee](https://github.com/Amazinggracee)
-- Twitter: [@amazinggaceu](https://twitter.com/amazinggraceu)
-- LinkedIn: [Amarachi Dimkpa](https://linkedin.com/in/amarachi-dimkpa-070643183)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,12 +124,12 @@ If you like this project please leave a comment,and I will get in touch with you
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse team!
+I would like to thank the Creative Commons license of the design!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

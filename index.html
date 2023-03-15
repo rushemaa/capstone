@@ -14,12 +14,12 @@
       rel="stylesheet"
     />
     <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
-    <link rel="stylesheet" href="all.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
       media="screen and (min-width: 768px)"
-      href="widescreen.css"
+      href="css/widescreen.css"
     />
     <script src="scripts.js" defer></script>
   </head>
@@ -32,6 +32,27 @@
           <div></div>
           <div></div>
         </div>
+        <!-- mobile nav -->
+        <nav id="clicked" class="not-cliked fonts">
+          <p class="clicked-p">X</p>
+          <ul class="clicked-ul">
+            <li>
+              <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="#">Projects</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
         <!-- computer nav -->
         <nav class="top-navigation fonts">
           <div class="accounts">
@@ -59,39 +80,37 @@
             </div>
             <ul class="nav-lists">
               <li><a class="nav-list" href="about.html">About</a></li>
-              <li><a class="nav-list" href="#">Program</a></li>
-              <li><a class="nav-list" href="#">Join</a></li>
-              <li><a class="nav-list" href="#">Sponsor</a></li>
-              <li><a class="nav-list" href="#">News</a></li>
-              <li><a class="nav-list" href="#">CC Campain</a></li>
+              <li><a class="nav-list" href="#">Projects</a></li>
+              <li><a class="nav-list" href="#">Services</a></li>
+              <li><a class="nav-list" href="#">Contact</a></li>
             </ul>
           </div>
         </nav>
       </header>
       <!-- main section -->
       <section class="home-page fonts">
-        <p class="hello">"Hello! Sharing the world"</p>
+        <p class="hello">"Impossible is nothing!"</p>
         <h1 class="web-title fonts-coco">
-          Creative commons global summit 2015
+          RMsoft.ltd - Reliable Made Software
         </h1>
         <div class="h-content">
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and
+            RMsoft.ltd company (Reliable Made Software) founded in 2012 by a
+            team of professionals who are passionate about delivering the best
+            web based software and android applications
           </p>
         </div>
-        <h2 class="dates fonts-coco">2015.10.15(THU) ~ 15(FRI)</h2>
+        <h2 class="dates fonts-coco">Impossible is nothing</h2>
         <p class="h-copyright">
-          @Notional Musium of Rwanda,Art Center Nabi and more😀
+          Improving people’s work through reliable softwares necessary in their
+          activities
         </p>
       </section>
     </main>
     <!-- Main program -->
     <section class="main-program fonts">
       <div class="p-title">
-        <h2>Main Program</h2>
+        <h2>SERVICES</h2>
         <hr class="line" />
       </div>
 
@@ -99,86 +118,61 @@
         <!-- program 1 -->
         <div class="program">
           <div class="p-header">
-            <img
-              class="p-img"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
-            />
-            <h4>CC Exhibition</h4>
+            <i class="fa services fa-desktop"></i>
+            <h4>Website design</h4>
           </div>
           <p class="p-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard
+            You need more than just a website. You need results. We turn
+            underperforming websites around. We have the business acumen,
+            creativity, and experience
           </p>
         </div>
         <!-- program 2 -->
         <div class="program">
           <div class="p-header">
-            <img
-              class="p-img"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
-            />
-            <h4>Lecture</h4>
+            <i class="fa services fa-code"></i>
+            <h4>Software</h4>
           </div>
           <p class="p-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard
+            Our softwares keeps us accountable. We pride ourselves on
+            responsibly taking our team can deliver on. We strive to not only
+            meet our clients’ expectations but exceed them
+          </p>
+        </div>
+        <div class="program">
+          <div class="p-header">
+            <i class="fa services fa-graduation-cap"></i>
+            <h4>Events</h4>
+          </div>
+          <p class="p-text">
+            We study the brand, identifying its target audience, devising the
+            event concept, and coordinating the technical aspects before
+            actually launching the event and provide online registration systems
+          </p>
+        </div>
+        <div class="program">
+          <div class="p-header">
+            <i class="fa services fa-file-video-o"></i>
+            <h4>Access control</h4>
+          </div>
+          <p class="p-text">
+            We provide High-End ultra series Quality Camera installation with
+            the highest features for enterprise and critical locations that
+            require a versatile and innovative solution to accommodate the site
           </p>
         </div>
       </div>
-      <button class="join-btn"><h3>Join CC Global Summit 2015</h3></button>
-      <a href="#" class="desktop-link">See the whole progeam</a>
+      <button class="join-btn"><h3>Subscribe to our news letter</h3></button>
+      <a href="#" class="desktop-link">See all services</a>
     </section>
     <!-- Featured Speakers -->
     <section class="speakers fonts">
       <div class="s-title">
-        <h2>Featured Speakers</h2>
+        <h2>Our team</h2>
         <hr class="line" />
       </div>
 
-      <div class="c-speakers">
-        <!-- speaker one -->
-        <div class="speaker">
-          <div class="s-img">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redhat/redhat-original.svg"
-            />
-          </div>
-          <div class="s-details">
-            <div class="s-header">
-              <h4>Rushema Anicet</h4>
-              <p class="details-title">
-                Director of Art center Nabi and a board member of CC Kigali
-              </p>
-              <hr class="s-line" />
-            </div>
-            <p class="s-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-            </p>
-          </div>
-        </div>
-        <!-- Speaker two -->
-        <div class="speaker">
-          <div class="s-img">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redhat/redhat-original.svg"
-            />
-          </div>
-          <div class="s-details">
-            <div class="s-header">
-              <h4>Rushema Anicet</h4>
-              <p class="details-title">
-                Director of Art center Nabi and a board member of CC Kigali
-              </p>
-              <hr class="s-line" />
-            </div>
-            <p class="s-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-            </p>
-          </div>
-        </div>
-      </div>
+      <div class="c-speakers"></div>
 
       <button class="more-speaker">
         <p>More <span>v</span></p>
@@ -192,35 +186,16 @@
       </div>
 
       <div class="partners">
-        <img
-          class="partner"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-plain-wordmark.svg"
-        />
-        <img
-          class="partner"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-plain-wordmark.svg"
-        />
-        <img
-          class="partner"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-plain-wordmark.svg"
-        />
-
-        <img
-          class="partner"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-plain-wordmark.svg"
-        />
-
-        <img
-          class="partner"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-plain-wordmark.svg"
-        />
+        <img class="partner" src="images/rdb.jpeg" />
+        <img class="partner" src="images/oda.png" />
+        <img class="partner" src="images/rwa.png" />
       </div>
     </section>
     <!-- About last section -->
-    <section class="footer">
-      <img class="dev-logo" src="images/dev-logo.png" />
+    <section class="footer fonts">
+      <img src="images/dev-logo.png" />
       <p class="footer-c">
-        2023 Rushema Anicet Kigali<br />
+        &#169; 2023 Rushema Anicet Kigali<br />
         Some Rights Reserved
       </p>
     </section>
