@@ -1,0 +1,36 @@
+body {
+  margin: initial;
+}
+
+.fonts {
+  font-family: 'Lato', sans-serif;
+}
+
+.fonts-coco {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+main {
+  background-color: #ececec;
+}
+
+.top-navigation {
+  display: none;
+}
+
+.hamburger {
+  margin-left: 7vw;
+  padding-top: 3.5vh;
+  position: fixed;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
