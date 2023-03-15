@@ -24,70 +24,71 @@
     <script src="scripts.js" defer></script>
   </head>
   <body>
-    <main>
-      <header>
-        <!-- Mobile nav -->
-        <div class="hamburger">
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <!-- mobile nav -->
-        <nav id="clicked" class="not-cliked fonts">
-          <p class="clicked-p">X</p>
-          <ul class="clicked-ul">
+    <header>
+      <!-- Mobile nav -->
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <!-- mobile nav -->
+      <nav id="clicked" class="not-cliked fonts">
+        <p class="clicked-p">X</p>
+        <ul class="clicked-ul">
+          <li>
+            <a href="index.html" class="active">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- computer nav -->
+      <nav class="top-navigation fonts">
+        <div class="accounts">
+          <ul class="accounts-lists">
             <li>
-              <a href="index.html" class="active">Home</a>
+              <a class="accounts-list" href="#"
+                ><i class="fa fa-facebook"></i
+              ></a>
             </li>
             <li>
-              <a href="about.html">About</a>
+              <a class="accounts-list" href="#"
+                ><i class="fa fa-twitter"></i
+              ></a>
             </li>
-            <li>
-              <a href="#">Projects</a>
-            </li>
-            <li>
-              <a href="#">Services</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
+            <li><a class="accounts-list" href="#">English</a></li>
+            <li><a class="accounts-list" href="#">My page</a></li>
+            <li><a class="accounts-list" href="#">Logout</a></li>
           </ul>
-        </nav>
-        <!-- computer nav -->
-        <nav class="top-navigation fonts">
-          <div class="accounts">
-            <ul class="accounts-lists">
-              <li>
-                <a class="accounts-list" href="#"
-                  ><i class="fa fa-facebook"></i
-                ></a>
-              </li>
-              <li>
-                <a class="accounts-list" href="#"
-                  ><i class="fa fa-twitter"></i
-                ></a>
-              </li>
-              <li><a class="accounts-list" href="#">English</a></li>
-              <li><a class="accounts-list" href="#">My page</a></li>
-              <li><a class="accounts-list" href="#">Logout</a></li>
-            </ul>
+        </div>
+        <div class="navs">
+          <div class="nav-log">
+            <a href="index.html"
+              ><img class="nav-logo" src="images/dev-logo.png"
+            /></a>
           </div>
-          <div class="navs">
-            <div class="nav-log">
-              <a href="index.html"
-                ><img class="nav-logo" src="images/dev-logo.png"
-              /></a>
-            </div>
-            <ul class="nav-lists">
-              <li><a class="nav-list" href="about.html">About</a></li>
-              <li><a class="nav-list" href="#">Projects</a></li>
-              <li><a class="nav-list" href="#">Services</a></li>
-              <li><a class="nav-list" href="#">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-      <!-- main section -->
+          <ul class="nav-lists">
+            <li><a class="nav-list" href="about.html">About</a></li>
+            <li><a class="nav-list" href="#">Projects</a></li>
+            <li><a class="nav-list" href="#">Services</a></li>
+            <li><a class="nav-list" href="#">Contact</a></li>
+            <li><a class="nav-list campaign" href="#">CC Campaign</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- main section -->
+    <main>
       <section class="home-page fonts">
         <p class="hello">"Impossible is nothing!"</p>
         <h1 class="web-title fonts-coco">
@@ -106,98 +107,113 @@
           activities
         </p>
       </section>
+
+      <!-- Main program -->
+      <section class="main-program fonts">
+        <div class="p-title">
+          <h2>SERVICES</h2>
+          <hr class="line" />
+        </div>
+
+        <div class="programs">
+          <!-- program 1 -->
+          <div class="program">
+            <div class="p-header">
+              <i class="fa services fa-desktop"></i>
+              <h4>Website design</h4>
+            </div>
+            <p class="p-text">
+              You need more than just a website. You need results. We turn
+              underperforming websites around. We have the business acumen,
+              creativity, and experience
+            </p>
+          </div>
+          <!-- program 2 -->
+          <div class="program">
+            <div class="p-header">
+              <i class="fa services fa-code"></i>
+              <h4>Software</h4>
+            </div>
+            <p class="p-text">
+              Our softwares keeps us accountable. We pride ourselves on
+              responsibly taking our team can deliver on. We strive to not only
+              meet our clients’ expectations but exceed them
+            </p>
+          </div>
+          <div class="program">
+            <div class="p-header">
+              <i class="fa services fa-graduation-cap"></i>
+              <h4>Events</h4>
+            </div>
+            <p class="p-text">
+              We study the brand, identifying its target audience, devising the
+              event concept, and coordinating the technical aspects before
+              actually launching the event and provide online registration
+              systems
+            </p>
+          </div>
+          <div class="program">
+            <div class="p-header">
+              <i class="fa services fa-file-video-o"></i>
+              <h4>Access control</h4>
+            </div>
+            <p class="p-text">
+              We provide High-End ultra series Quality Camera installation with
+              the highest features for enterprise and critical locations that
+              require a versatile and innovative solution to accommodate the
+              site
+            </p>
+          </div>
+          <div class="program">
+            <div class="p-header">
+              <i class="fa services fa-graduation-cap"></i>
+              <h4>Events</h4>
+            </div>
+            <p class="p-text">
+              We study the brand, identifying its target audience, devising the
+              event concept, and coordinating the technical aspects before
+              actually launching the event and provide online registration
+              systems
+            </p>
+          </div>
+        </div>
+        <button class="join-btn"><h3>Subscribe to our news letter</h3></button>
+        <a href="#" class="desktop-link">See all services</a>
+      </section>
+      <!-- Featured Speakers -->
+      <section class="speakers fonts">
+        <div class="s-title">
+          <h2>Our team</h2>
+          <hr class="line" />
+        </div>
+
+        <div class="c-speakers"></div>
+
+        <button class="more-speaker">
+          <p>More <span>v</span></p>
+        </button>
+      </section>
+
+      <section class="partners-wrapper fonts">
+        <div class="partner-title">
+          <h2>Partner</h2>
+          <hr class="partner-line" />
+        </div>
+
+        <div class="partners">
+          <img class="partner" alt="rdb" src="images/rdb.jpeg" />
+          <img class="partner" alt="Oda pharmacy" src="images/oda.png" />
+          <img class="partner" alt="Rwa" src="images/rwa.png" />
+        </div>
+      </section>
     </main>
-    <!-- Main program -->
-    <section class="main-program fonts">
-      <div class="p-title">
-        <h2>SERVICES</h2>
-        <hr class="line" />
-      </div>
-
-      <div class="programs">
-        <!-- program 1 -->
-        <div class="program">
-          <div class="p-header">
-            <i class="fa services fa-desktop"></i>
-            <h4>Website design</h4>
-          </div>
-          <p class="p-text">
-            You need more than just a website. You need results. We turn
-            underperforming websites around. We have the business acumen,
-            creativity, and experience
-          </p>
-        </div>
-        <!-- program 2 -->
-        <div class="program">
-          <div class="p-header">
-            <i class="fa services fa-code"></i>
-            <h4>Software</h4>
-          </div>
-          <p class="p-text">
-            Our softwares keeps us accountable. We pride ourselves on
-            responsibly taking our team can deliver on. We strive to not only
-            meet our clients’ expectations but exceed them
-          </p>
-        </div>
-        <div class="program">
-          <div class="p-header">
-            <i class="fa services fa-graduation-cap"></i>
-            <h4>Events</h4>
-          </div>
-          <p class="p-text">
-            We study the brand, identifying its target audience, devising the
-            event concept, and coordinating the technical aspects before
-            actually launching the event and provide online registration systems
-          </p>
-        </div>
-        <div class="program">
-          <div class="p-header">
-            <i class="fa services fa-file-video-o"></i>
-            <h4>Access control</h4>
-          </div>
-          <p class="p-text">
-            We provide High-End ultra series Quality Camera installation with
-            the highest features for enterprise and critical locations that
-            require a versatile and innovative solution to accommodate the site
-          </p>
-        </div>
-      </div>
-      <button class="join-btn"><h3>Subscribe to our news letter</h3></button>
-      <a href="#" class="desktop-link">See all services</a>
-    </section>
-    <!-- Featured Speakers -->
-    <section class="speakers fonts">
-      <div class="s-title">
-        <h2>Our team</h2>
-        <hr class="line" />
-      </div>
-
-      <div class="c-speakers"></div>
-
-      <button class="more-speaker">
-        <p>More <span>v</span></p>
-      </button>
-    </section>
-
-    <section class="partners-wrapper fonts">
-      <div class="partner-title">
-        <h2>Parter</h2>
-        <hr class="partner-line" />
-      </div>
-
-      <div class="partners">
-        <img class="partner" src="images/rdb.jpeg" />
-        <img class="partner" src="images/oda.png" />
-        <img class="partner" src="images/rwa.png" />
-      </div>
-    </section>
     <!-- About last section -->
-    <section class="footer fonts">
+    <footer class="footer fonts">
       <img src="images/dev-logo.png" />
       <p class="footer-c">
         &#169; 2023 Rushema Anicet Kigali<br />
         Some Rights Reserved
       </p>
-    </section>
+    </footer>
   </body>
 </html>

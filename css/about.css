@@ -201,9 +201,9 @@
 
 .footer {
   display: flex;
-  margin-left: 15vw;
-  margin-right: 15vw;
-  gap: 4%;
+  margin-left: initial;
+  margin-right: initial;
+  gap: 2%;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
@@ -211,12 +211,10 @@
 }
 
 .dev-logo {
-  width: 48%;
   max-height: 30px;
 }
 
 .footer-c {
-  width: 48%;
   color: #272a31;
   font-size: 12px;
 }
@@ -230,7 +228,7 @@
 
   .footer {
     display: flex;
-    gap: 4%;
+    gap: 2%;
     align-items: center;
     justify-content: center;
     padding-top: 20px;
@@ -241,12 +239,10 @@
   }
 
   .dev-logo {
-    width: 48%;
     max-height: 30px;
   }
 
   .footer-c {
-    width: 48%;
     color: #fff;
     font-size: 12px;
   }

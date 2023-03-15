@@ -44,17 +44,33 @@ const feautured = [
     descriptions: 'Happy coding😊',
     image: 'images/others.jpeg',
   },
+  {
+    name: 'GAKUBA James',
+    title: 'Developer',
+    descriptions: 'We own and shape our future',
+    image: 'images/others.jpeg',
+  },
+  {
+    name: 'UWIMANA Anic',
+    title: 'Developer - backend',
+    descriptions: 'Happy coding😊',
+    image: 'images/others.jpeg',
+  },
 ];
 
 // passing data into the works section
 const works = document.querySelector('.c-speakers');
-// eslint-disable-next-line no-plusplus
 for (let index = 0; index < feautured.length; index++) {
-  // eslint-disable-next-line object-curly-newline
-  const { name, title, descriptions, image } = feautured[index];
+  const {
+    name, title, descriptions, image,
+  } = feautured[index];
   const pSection = document.createElement('div');
   const pClasses = document.createAttribute('class');
-  pClasses.value = 'speaker';
+  let hiddenClass = '';
+  if (index >= 2) {
+    hiddenClass = 'hide-on-mobile';
+  }
+  pClasses.value = `speaker ${hiddenClass}`;
   pSection.setAttributeNode(pClasses);
   pSection.innerHTML = `
           <div class="s-img">

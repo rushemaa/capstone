@@ -78,17 +78,30 @@
 }
 
 .nav-list:hover {
+  color: #ec5242;
+}
+
+.campaign {
   border: 4px solid #ec5242;
 }
 
+.campaign:hover {
+  background-color: #ec5242;
+  color: #fff;
+}
+
 /* styling home page */
+
 .home-page {
   display: flex;
   flex-direction: column;
   margin-bottom: initial;
   padding-top: 150px;
-  margin-right: 12vw;
-  margin-left: 12vw;
+  margin-right: initial;
+  margin-left: initial;
+  padding-right: 12vw;
+  padding-left: 12vw;
+  background-color: #ececec;
 }
 
 .hello {
@@ -180,9 +193,14 @@
   flex-direction: column;
   align-items: center;
   background-color: rgba(61, 63, 69, 0.5);
-  width: 20%;
+  width: 18%;
   margin-right: initial;
   margin-left: initial;
+}
+
+.program:hover {
+  border: 2px solid #fff;
+  cursor: pointer;
 }
 
 .p-header {
