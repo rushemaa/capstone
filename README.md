@@ -61,10 +61,10 @@ In this project:
 ### Key Features <a name="key-features">
 
 - **[key_feature_1]** This website, built with CSS, Html and JavaScript.
-- **[key_feature_2]**  Mobile Version.
-- **[key_feature_3]**  Desktop Version
-- **[key_feature_4]**  Dynamic Content using JS
-- **[key_feature_5]**  mobile menu(Popup).
+- **[key_feature_2]** Mobile Version.
+- **[key_feature_3]** Desktop Version
+- **[key_feature_4]** Dynamic Content using JS
+- **[key_feature_5]** mobile menu(Popup).
   </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -119,12 +119,19 @@ If you like this project please leave a comment,and I will get in touch with you
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Creative Commons license of the design!
+- The original design ideal by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+- Project from [Microverse](https://www.microverse.org/) html & css module.
+- Images inspired by [Unsplash](https://unsplash.com/).
+- Topic inspired by [Khadija Hamdani](https://www.researchgate.net/publication/329972741_Knowledge_based_entrepreneurship_the_role_of_networks).
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedbacks.
+- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+- Hat tip to anyone whose code was used.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
