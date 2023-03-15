@@ -123,7 +123,7 @@ I would like to thank the Creative Commons license of the design!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License <a name="http://creativecommons.org/licenses/by-nc/4.0/">License</a>
+## 📝 License <a name="license"></a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
