@@ -54,8 +54,6 @@ In this project:
 - [ ] In order to lay out the elements on the page I used use Grid and Flexbox.
 
 - [ ]I did not implement any functionality that requires JavaScript
-- [ ] I replicated the design as much as possible (e.g., font, colors, images, text, margins) using the info from the Figma templates.
-- [ ] I the usefulness of transitions and animations.
 - [ ]I implemented functionality that requires JavaScript.
 - [ ] I used basic JavaScript syntax.
 - [ ] I used JavaScript to manipulate DOM elements.
@@ -79,7 +77,7 @@ In this project:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/rushemaa/capstone/)
+- [Live Demo Link](https://rushemaa.github.io/capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
