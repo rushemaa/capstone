@@ -50,11 +50,7 @@ In this project:
 - [ ] I created a form with HTML5 validations.
 - [ ] I understood the importance of UX.
 - [ ] I understood how to parse a Figma design to create a UI.
-- [ ]We used media queries in our CSS file to make my desktop version look like the template I selected (Desktop: >=768px).
 - [ ] In order to lay out the elements on the page I used use Grid and Flexbox.
-
-- [ ]I did not implement any functionality that requires JavaScript
-- [ ]I implemented functionality that requires JavaScript.
 - [ ] I used basic JavaScript syntax.
 - [ ] I used JavaScript to manipulate DOM elements.
 
@@ -85,7 +81,7 @@ In this project:
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running,clone this repository to your desired folder: https://github.com/rushemaa/mobile-first.git
+To get a local copy up and running,clone this repository to your desired folder: https://github.com/rushemaa/capstone.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,8 +97,9 @@ To get a local copy up and running,clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Get my resume**
-- **Lets Connect**
+- **Project page**
+- **Service page**
+- **Contact page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,7 +123,7 @@ I would like to thank the Creative Commons license of the design!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License <a name="[license](http://creativecommons.org/licenses/by-nc/4.0/)"></a>
+## 📝 License <a name="http://creativecommons.org/licenses/by-nc/4.0/">License</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
