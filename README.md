@@ -36,7 +36,7 @@
 
 The entire project was built with only HTML5, CSS3 and JavaScript.
 
-# 📖 [Online link porfolio] <a name="about-project"></a>
+# 📖 [RMsoft website] <a name="about-project"></a>
 
 In this project:
 
@@ -64,11 +64,11 @@ In this project:
 
 ### Key Features <a name="key-features">
 
-- **[key_feature_1]** My Porfolio, built with CSS, Html and JavaScript.
-- **[key_feature_2]** Portfolio: Mobile Version.
-- **[key_feature_3]** Portfolio: add a contact form and finish the mobile version.
-- **[key_feature_4]** Portfolio: desktop version.
-- **[key_feature_5]** Portfolio - mobile menu.
+- **[key_feature_1]** This website, built with CSS, Html and JavaScript.
+- **[key_feature_2]**  Mobile Version.
+- **[key_feature_3]**  Desktop Version
+- **[key_feature_4]**  Dynamic Content using JS
+- **[key_feature_5]**  mobile menu(Popup).
   </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -126,8 +126,7 @@ I would like to thank the Creative Commons license of the design!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License <a name="license"></a>
+## 📝 License <a name="[license](http://creativecommons.org/licenses/by-nc/4.0/)"></a>
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
