@@ -22,9 +22,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Rushema-Portfolio] <a name="about-project"></a>
+# 📖 [RMsoft website] <a name="about-project"></a>
 
-**[Rushema-Portfolio]** is the first page of my portfolio
+**[RMsoft website]** is the website of company called RMsoft
 
 # 🛠 Built With <a name="built-with">Technologies</a>
 
