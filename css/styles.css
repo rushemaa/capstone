@@ -98,26 +98,24 @@
 
 .p-header {
   display: flex;
-  width: 38%;
+  width: 39%;
   align-items: center;
-}
-
-.p-img {
-  max-height: 50px;
-  margin-left: 20px;
+  justify-content: left;
 }
 
 .services {
-  font-size: 50px;
+  font-size: 40px;
   color: #d3d3d3;
-  margin-left: 20px;
+  margin-left: 2vw;
+  margin-right: initial;
   z-index: 0;
   margin-top: 10px;
 }
 
 .p-header h4 {
   color: #ec5242;
-  margin-left: 20px;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 
 .p-text {

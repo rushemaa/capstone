@@ -210,12 +210,14 @@
   align-items: center;
 }
 
-.p-img {
-  max-height: 50px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.services {
+  font-size: 40px;
+  color: #d3d3d3;
   margin-left: initial;
   margin-right: initial;
+  z-index: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .p-header h4 {

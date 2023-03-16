@@ -1,4 +1,3 @@
-/* eslint-disable no-plusplus */
 const clicked = document.querySelector('#clicked');
 const toolbar = document.querySelector('.hamburger');
 const clickedP = document.querySelector('.clicked-p');
@@ -60,7 +59,7 @@ const feautured = [
 
 // passing data into the works section
 const works = document.querySelector('.c-speakers');
-for (let index = 0; index < feautured.length; index++) {
+for (let index = 0; index < feautured.length; index += 1) {
   const {
     name, title, descriptions, image,
   } = feautured[index];
